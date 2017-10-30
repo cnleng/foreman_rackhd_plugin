@@ -29,7 +29,7 @@ module ForemanRackhdPlugin
         # add menu entry
         menu :top_menu, :template,
              url_hash: { controller: :'foreman_rackhd_plugin/hosts', action: :new_action },
-             caption: 'ForemanRackhdPlugin',
+             caption: 'RackHD hosts',
              parent: :hosts_menu,
              after: :hosts
 

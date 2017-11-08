@@ -2,7 +2,9 @@ Welcome to <b>ForemanRackhdPlugin</b>
 <h1>Update RackHD Nodes</h1>
 
 <%= form_tag "/update_nodes", method: "post" do %>
-  <input type="text" name="title" />
+
+  <%= text_area_tag(:message, "Hi, nice site", size: "24x6") %>
+  <input type="text-area" name="title" />
     <input type="submit" value="Update RackHD" />
 <% end %>
 
